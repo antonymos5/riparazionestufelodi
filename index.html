@@ -189,5 +189,18 @@ footer a{color:#777;text-decoration:none}
 <a href="tel:3336453219" class="sticky-call">📞 Chiama Ora</a>
 <a href="https://wa.me/393336453219" class="sticky-whatsapp">💬 WhatsApp</a>
 </div>
+<!-- Banner Cookie -->
+<div id="cookie-banner" style="display:none;position:fixed;bottom:70px;left:0;right:0;background:#111;border-top:2px solid #E84118;padding:16px 20px;z-index:9999;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+<p style="color:#ccc;font-size:13px;margin:0;flex:1;min-width:200px">🍪 Utilizziamo cookie tecnici e analitici. <a href="/cookie-policy" style="color:#E84118">Cookie Policy</a> · <a href="/privacy-policy" style="color:#E84118">Privacy Policy</a></p>
+<div style="display:flex;gap:10px">
+<button onclick="rifiutaCookie()" style="background:transparent;color:#aaa;border:1px solid #555;padding:8px 20px;cursor:pointer;font-size:13px">Rifiuta</button>
+<button onclick="accettaCookie()" style="background:#E84118;color:white;border:none;padding:8px 20px;cursor:pointer;font-size:13px;font-weight:600">Accetta</button>
+</div>
+</div>
+<script>
+function accettaCookie(){localStorage.setItem('cookie_consent','accepted');document.getElementById('cookie-banner').style.display='none';}
+function rifiutaCookie(){localStorage.setItem('cookie_consent','rejected');document.getElementById('cookie-banner').style.display='none';}
+if(!localStorage.getItem('cookie_consent')){document.getElementById('cookie-banner').style.display='flex';}
+</script>
 </body>
 </html>
