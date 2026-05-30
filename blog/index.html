@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Riparazione Stufe | Guide e Consigli | RiparazioneStufelodi.it</title>
+<meta name="description" content="Guide pratiche sulla riparazione stufe a pellet e camini: cause dei guasti, costi, manutenzione e consigli tecnici. Tecnici qualificati a Lodi e provincia.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://riparazionestufelodi.it/blog/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--arancio:#e05a00;--arancio2:#c44f00;--carbone:#1a1a1a;--grigio-sc:#2d2d2d;--grigio:#444;--bordo:#333;--testo:#d0d0d0;--chiaro:#e8e8e8;--bianco:#f5f5f5;--font-h:'Barlow Condensed',sans-serif;--font-b:'Barlow',sans-serif}
+html{scroll-behavior:smooth}
+body{background:var(--carbone);color:var(--testo);font-family:var(--font-b);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--arancio);text-decoration:none}a:hover{text-decoration:underline}
+.container{width:92%;max-width:1080px;margin:0 auto}
+.btn-primary{display:inline-flex;align-items:center;gap:.5em;font-family:var(--font-h);font-weight:700;font-size:1.05rem;letter-spacing:.05em;text-transform:uppercase;padding:.8em 1.8em;border-radius:4px;background:var(--arancio);color:#fff;text-decoration:none}
+.btn-primary:hover{background:var(--arancio2);text-decoration:none;color:#fff}
+header{position:sticky;top:0;z-index:100;background:rgba(26,26,26,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--bordo);padding:.9em 0}
+.nav{display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:var(--font-h);font-size:1.4rem;font-weight:800;color:var(--bianco);letter-spacing:.03em}
+.logo span{color:var(--arancio)}
+.logo small{font-size:.7rem;font-weight:400;color:#666;display:block;letter-spacing:.08em;text-transform:uppercase}
+footer{background:#111;border-top:1px solid var(--bordo);padding:1.8rem 0;font-size:.83rem;color:rgba(255,255,255,.5)}
+footer .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.floating{position:fixed;bottom:24px;right:24px;z-index:99;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.fl-btn{display:flex;align-items:center;gap:8px;padding:12px 18px;border-radius:50px;font-weight:700;font-size:14px;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.5);white-space:nowrap;color:#fff}
+.fl-wa{background:#25D366}.fl-tel{background:var(--arancio)}
+.hero-blog{background:linear-gradient(135deg,#111 0%,#1a1a1a 100%);border-bottom:1px solid var(--bordo);padding:70px 0 50px;text-align:center}
+.hero-blog .tag{display:inline-block;background:rgba(224,90,0,.15);color:var(--arancio);border:1px solid rgba(224,90,0,.3);font-family:var(--font-h);font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;padding:.3em .9em;border-radius:2px;margin-bottom:1rem}
+.hero-blog h1{font-family:var(--font-h);font-size:clamp(2rem,5vw,3.2rem);font-weight:800;color:var(--bianco);margin-bottom:.8rem}
+.hero-blog h1 em{font-style:normal;color:var(--arancio)}
+.hero-blog p{font-size:1.05rem;color:#888;max-width:540px;margin:0 auto}
+.blog-section{padding:60px 0}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;margin-top:2.5rem}
+.card{background:var(--grigio-sc);border:1px solid var(--bordo);border-radius:4px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--arancio);transform:translateY(-3px)}
+.card-top{background:linear-gradient(135deg,#222,#2d2d2d);padding:1.8rem;border-bottom:2px solid var(--arancio)}
+.card-cat{font-family:var(--font-h);font-size:.78rem;letter-spacing:3px;text-transform:uppercase;color:var(--arancio);margin-bottom:.5rem}
+.card-title{font-family:var(--font-h);font-size:1.5rem;font-weight:800;color:var(--bianco);line-height:1.15}
+.card-body{padding:1.4rem;flex:1;display:flex;flex-direction:column}
+.card-desc{font-size:.92rem;color:#888;line-height:1.7;flex:1}
+.card-meta{font-size:.78rem;color:#555;margin-top:.8rem;padding-top:.7rem;border-top:1px solid var(--bordo)}
+.card-link{display:inline-flex;align-items:center;gap:.3em;font-family:var(--font-h);font-size:.95rem;letter-spacing:.05em;color:var(--arancio);margin-top:.8rem;text-decoration:none;text-transform:uppercase}
+.card-link:hover{color:var(--arancio2);text-decoration:none}
+.cta-strip{background:linear-gradient(135deg,#111,#1a1a1a);border-top:1px solid var(--bordo);border-bottom:1px solid var(--bordo);padding:50px 0;text-align:center;margin-top:40px}
+.cta-strip h2{font-family:var(--font-h);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;color:var(--bianco);margin-bottom:.6rem}
+.cta-strip h2 em{font-style:normal;color:var(--arancio)}
+.cta-strip p{color:#777;margin-bottom:1.5rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav class="nav">
+      <a href="../index.html" class="logo">Riparazione<span>Stufe</span><small>lodi e provincia</small></a>
+      <a href="tel:+393336453219" class="btn-primary">&#128222; 333 645 3219</a>
+    </nav>
+  </div>
+</header>
+<section class="hero-blog">
+  <div class="container">
+    <div class="tag">Blog</div>
+    <h1>Guide sulla <em>Riparazione Stufe</em></h1>
+    <p>Consigli tecnici, cause dei guasti, costi e manutenzione. Tutto quello che devi sapere sulle stufe a pellet.</p>
+  </div>
+</section>
+<section class="blog-section">
+  <div class="container">
+    <div class="blog-grid">
+      <div class="card">
+        <div class="card-top">
+          <div class="card-cat">Guasti &amp; Soluzioni</div>
+          <div class="card-title">Stufa a Pellet Non Si Accende: Cause e Soluzioni 2025</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">La stufa non parte? Resistenza bruciata, coclea bloccata, fotocellula sporca o scheda difettosa. Guida completa alle cause piu comuni e quando chiamare il tecnico.</p>
+          <div class="card-meta">Maggio 2026 &middot; 6 min di lettura</div>
+          <a href="stufa-pellet-non-si-accende.html" class="card-link">Leggi la guida &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cta-strip">
+  <div class="container">
+    <h2>La tua stufa ha un <em>problema</em>?</h2>
+    <p>Interveniamo a Lodi e provincia in giornata. Diagnosi gratuita, ricambi originali.</p>
+    <a href="tel:+393336453219" class="btn-primary">&#128222; Chiama il Tecnico &mdash; 333 645 3219</a>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <span>&#169; 2026 RiparazioneStufelodi.it &mdash; Verde Oliva S.r.l.s. P.IVA IT10927440965</span>
+    <span><a href="tel:+393336453219" style="color:var(--arancio)">333 645 3219</a> &middot; <a href="../privacy-policy/index.html">Privacy</a> &middot; <a href="../cookie-policy/index.html">Cookie</a></span>
+  </div>
+</footer>
+<div class="floating">
+  <a href="https://wa.me/393336453219" class="fl-btn fl-wa">&#128172; WhatsApp</a>
+  <a href="tel:+393336453219" class="fl-btn fl-tel">&#128222; Chiama</a>
+</div>
+</body></html>

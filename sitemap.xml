@@ -66,4 +66,6 @@
   <url><loc>https://riparazionestufelodi.it/zelo-buon-persico/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://riparazionestufelodi.it/privacy-policy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://riparazionestufelodi.it/cookie-policy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://riparazionestufelodi.it/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://riparazionestufelodi.it/blog/stufa-pellet-non-si-accende.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
 </urlset>
