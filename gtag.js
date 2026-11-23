@@ -59,6 +59,14 @@
   s.src = 'https://www.googletagmanager.com/gtag/js?id=' + AW_ID;
   (document.head || document.documentElement).appendChild(s);
 
+  /* ---------- statistiche visitatori PostHog (23/11/2026) ----------
+     File separato /posthog.js, identico su tutti i siti: legge lo
+     stesso consenso del banner e non scrive nulla senza "Accetta tutti". */
+  var ph = document.createElement('script');
+  ph.async = true;
+  ph.src = '/posthog.js';
+  (document.head || document.documentElement).appendChild(ph);
+
   /* ---------- aggiornamento consenso ---------- */
   var ultimoStato = stato;
   function applicaConsenso() {
